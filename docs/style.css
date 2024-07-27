@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2196F3; /* Blue */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+#coin-count {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-weight: bold;
+}
+
+/* Avatar Section Styles */
+#avatars {
+  padding: 20px;
+}
+
+.avatar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+  gap: 20px;
+}
+
+.avatar-item {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease; /* Smooth hover effect */
+}
+
+.avatar-item:hover {
+  transform: translateY(-5px); /* Slightly elevate on hover */
+}
+
+.avatar-item img {
+  max-width: 20%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.add-to-cart {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.add-to-cart:hover {
+  background-color: #3e8e41; /* Darker green */
+}
+
+/* Pet Section Styles */
+#pets {
+  padding: 20px;
+}
+
+.pet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+  gap: 20px;
+}
+
+.pet-item {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease; /* Smooth hover effect */
+}
+
+.pet-item:hover {
+  transform: translateY(-5px); /* Slightly elevate on hover */
+}
+
+.pet-item img {
+  max-width: 20%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Shopping Cart Styles */
+#shopping-cart {
+  padding: 20px;
+}
+
+#cart-items {
+  /* You'll add styles for individual cart items here later */
+}
+
+#total-price {
+  margin-top: 10px;
+  font-weight: bold;
+}
